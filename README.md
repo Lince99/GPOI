@@ -1,0 +1,2 @@
+# GPOI
+School's exercizes
