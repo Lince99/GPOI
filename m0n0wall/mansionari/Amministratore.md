@@ -1,19 +1,26 @@
-# Amministratore aziendale
 
-## Posizione
+## Posizione: Amministratore Generale
 
-## Dipartimento
+## Dipartimento: Amministrazione
 
-## Dipendenze
+## Dipendenza gerarchica: Direttore
 
-### gerarchica
+### Dipendena funzionale: Amministrazione generale, controllo sottoposti
 
-### funzionale
+### A lui riportano: programmatori software sicurezza, programmatori software m0n0wall, addetti all'assistenza
 
-## Raporti esterni
+## Rapporti interfuzionali interni: tutti i dipartimenti
 
-## Scopo della Posizione
+## Rapporti esterni:  aziende "Netgear", "Sandisk" (fornitori), banca, servizi logistici (Magazzino, logistica), enti pubblici
 
-## Responsabilita'
+## Scopo della Posizione: Amministra e gestisce l'azienda
 
-## Compiti e mansioni
+## Responsabilita': 
+-Collaborare con il Direttore per il raggiungimento degli obbiettivi generali e di profitto
+-Gestire i sottoposti
+-Gestire i contatti con le aziende esterne
+
+## Compiti e mansioni:
+-Sovrintendere i programmatori e gli addetti all'assistenza
+-Relazionarsi con gli enti esterni in assenza del Direttore 
+-Gestione dei beni dell'azienda
