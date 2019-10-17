@@ -1,19 +1,23 @@
-# Programmatore software
 
-## Posizione
+## Posizione: Programmatore software sicurezza
 
-## Dipartimento
+## Dipartimento: Programmazione
 
-## Dipendenze
+## Dipendenza gerarchica: Direttore, Amministratore generale
 
-### gerarchica
+### Dipendenza funzionale
 
-### funzionale
+## Rapporti interni: tutti
 
-## Raporti esterni
+## Raporti esterni:
 
-## Scopo della Posizione
+## Scopo della Posizione: Programmare e mantenere i software di sicurezza
 
-## Responsabilita'
+## Responsabilita':
+-Assicurarsi che il software sia affidabile e senza bug
+-Non distribuire il software e/o infromazioni dell'azienda
 
-## Compiti e mansioni
+## Compiti e mansioni:
+-Risolvere gli eventuali bug pressenti nel software
+-Sviluppare nuovi software
+-Ottimizzare il software
