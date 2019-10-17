@@ -1,22 +1,15 @@
-# NOMEPROGETTO
-
-## RUOLI
-
-## PRODOTTI
-
-## COLLEGAMENTI CON ALTRE MATERIE
 # SecuritySoft
 
 ## RUOLI
 
-- (4) organigramma e gradi di specializzazione = Andoniu
-- (1) BCM (Business Canvas Model) = Bernardi
-- (3) Meccanismi di coordinamento = Andoniu
-- (5) Mansionari = Andoniu
-- (2) Prodotti e design = Dalzotto
-- (6) Costi e BEP (Break Even Point) = Basso
-- (8) Presentazione = tutti
-- (7) m0n0wall = Basso
+- 4) organigramma e gradi di specializzazione = Andoniu
+- 1) BCM (Business Canvas Model) = Bernardi
+- 3) Meccanismi di coordinamento = Andoniu
+- 5) Mansionari = Andoniu
+- 2) Prodotti e design = Dalzotto
+- 6) Costi e BEP (Break Even Point) = Basso
+- 7) Presentazione = tutti
+
 
 ## BCM
 
@@ -28,6 +21,11 @@ Risorse chiave: 1 ufficio con 3 stanze (commerciale, sviluppo, magazzino), 10 pe
 
 Proposte di valore: azienda giovane molto competente di garanzia e sicurezza personale.
 
+Relazioni con i Clienti: assistenza remota via mail, teamviewer e guida tramite FAQ
+
+Canali: sito web, numero telefonico, pubblicità
+
+Segmenti di clientela: Privati, piccole aziende nel settore tecnico/industriale
 
 
 ## PRODOTTI
@@ -36,10 +34,24 @@ Proposte di valore: azienda giovane molto competente di garanzia e sicurezza per
 
 ## COLLEGAMENTI CON ALTRE MATERIE
 
+### Presentazione
+
+- Titolo (tutti) (secs)
+- BCM (Berna) (2 min)
+- Prodotti (Dalzo) (1 min)
+- Struttura (Andoniu) (2 min)
+- Organigramma e specializzazioni (Andoniu) (4 min)
+- Meccanismi di coordinamento e esempi (Basso) (2 min)
+- Mansionari:
+	- Direttore e Amministratore (Dalzo) (2 min)
+	- Programmatore software e monowall (Berna) (1 min)
+	- Assistenza (Basso) (1 min)
+- Pagina finale (tutti) (secs)
+
 ### GPOI LAB
 
-Calc
-
-### SISTEMI LAB
+Foglio di Calcolo con BEP
 
 ### Licenza
+
+TODO
