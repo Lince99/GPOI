@@ -1,16 +1,17 @@
-# Assistenza
 
-## Posizione
+## Posizione: Addetto all'assistenza clienti
 
-## Dipartimento
+## Dipartimento: Assistenza clienti
 
-## Dipendenze
+## Dipendenza gerarchica: Direttore, Amministratore generale
 
-### gerarchica
+### Dipendenza funzionale:
 
-### funzionale
+## A lui riportano:
 
-## Raporti esterni
+## Rapporti interni: tutti
+
+## Rapporti esterni: clienti
 
 ## Scopo della Posizione
 
