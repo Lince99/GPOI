@@ -1,19 +1,27 @@
-# Direttore
 
-## Posizione
+## Posizione: Direttore
 
-## Dipartimento
+## Dipartimento: Direzione
 
-## Dipendenze
+## Dipendenza gerarchica:
 
-### gerarchica
+### Dipendenza funzionale: Amministrazione generale, controllo sottoposti
 
-### funzionale
+##A lui riportano:Amministratore generale, programmatori software sicurezza, programmatori software m0n0wall, addetti all'assistenza
 
-## Raporti esterni
+## Rapporti interfuzionali interni: tutti i dipartimenti
 
-## Scopo della Posizione
+## Rapporti esterni: aziende "Netgear", "Sandisk" (fornitori), banca, servizi logistici (Magazzino, logistica), enti pubblici
 
-## Responsabilita'
+## Scopo della Posizione: Amministra e gestisce l'azienda
 
-## Compiti e mansioni
+## Responsabilita':
+-Collaborare con l'amministratore generale per il raggiungimento degli obbiettivi generali e di profitto
+-Mantenere il giusto clima all'interno dell'azienda
+-Gestire i sottoposti
+-Gestire i contatti con le aziende esterne
+
+## Compiti e mansioni:
+-Sovrintendere l'Amministratore generale
+-Relazionarsi con gli enti esterni
+-Gestione dei beni dell'azienda
