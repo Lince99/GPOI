@@ -1,19 +1,23 @@
-# Programmatore m0n0wall
 
-## Posizione
+## Posizione: Programmatore software M0n0wall
 
-## Dipartimento
+## Dipartimento: Programmazione
 
-## Dipendenze
+## Dipendenza gerarchica: Direttore, Amministratore generale
 
-### gerarchica
+### Dipendenza funzionale
 
-### funzionale
+## Rapporti interni: tutti
 
-## Raporti esterni
+## Raporti esterni:
 
-## Scopo della Posizione
+## Scopo della Posizione: Programmare e mantenere il software "M0n0wall"
 
-## Responsabilita'
+## Responsabilita':
+-Assicurarsi che il software sia affidabile e senza bug
+-Non distribuire il software e/o infromazioni dell'azienda
 
-## Compiti e mansioni
+## Compiti e mansioni:
+-Risolvere gli eventuali bug pressenti nel software
+-Sviluppare aggiornamenti del software
+-Ottimizzare il software
