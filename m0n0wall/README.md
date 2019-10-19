@@ -2,13 +2,13 @@
 
 ## RUOLI
 
-- 4) organigramma e gradi di specializzazione = Andoniu
-- 1) BCM (Business Canvas Model) = Bernardi
-- 3) Meccanismi di coordinamento = Andoniu
-- 5) Mansionari = Andoniu
-- 2) Prodotti e design = Dalzotto
-- 6) Costi e BEP (Break Even Point) = Basso
-- 7) Presentazione = tutti
+- (4) organigramma e gradi di specializzazione = Andoniu
+- (1) BCM (Business Canvas Model) = Bernardi
+- (3) Meccanismi di coordinamento = Andoniu
+- (5) Mansionari = Andoniu
+- (2) Prodotti e design = Dalzotto
+- (6) Costi e BEP (Break Even Point) = Basso
+- (7) Presentazione = tutti
 
 
 ## BCM
@@ -30,7 +30,9 @@ Segmenti di clientela: Privati, piccole aziende nel settore tecnico/industriale
 
 ## PRODOTTI
 
-
+- Software vari già sviluppati in precedenza
+- Chiavetta con lettore impronte digitali
+- Router con m0n0wall e software di gestione della casa
 
 ## COLLEGAMENTI CON ALTRE MATERIE
 
@@ -54,4 +56,5 @@ Foglio di Calcolo con BEP
 
 ### Licenza
 
-TODO
+Copyright (C) 2019 SecuritySoft (not so R)
+Not a real one.
