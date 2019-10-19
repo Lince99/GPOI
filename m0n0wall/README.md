@@ -39,14 +39,14 @@ Segmenti di clientela: Privati, piccole aziende nel settore tecnico/industriale
 ### Presentazione
 
 - Titolo (tutti) (secs)
-- BCM (Berna) (2 min)
+- BCM (Berna) (3 min)
 - Prodotti (Dalzo) (1 min)
-- Struttura (Andoniu) (2 min)
-- Organigramma e specializzazioni (Andoniu) (4 min)
-- Meccanismi di coordinamento e esempi (Basso) (2 min)
+- Struttura (Andoniu) (1 min)
+- Organigramma e specializzazioni (Andoniu) (2 min)
+- Meccanismi di coordinamento e esempi (Basso) (3 min)
 - Mansionari:
 	- Direttore e Amministratore (Dalzo) (2 min)
-	- Programmatore software e monowall (Berna) (1 min)
+	- Programmatore software e monowall (Berna) (2 min)
 	- Assistenza (Basso) (1 min)
 - Pagina finale (tutti) (secs)
 
