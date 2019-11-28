@@ -2,7 +2,7 @@
 tags: [General]
 title: GPOI
 created: '2019-11-21T07:50:52.720Z'
-modified: '2019-11-21T08:32:02.260Z'
+modified: '2019-11-28T08:26:42.200Z'
 ---
 
 # GPOI
@@ -109,9 +109,66 @@ git log
 Se vengono apportate delle modifiche git status mostrerà che ci sono stati dei cambiamenti
 
 ```bash
-
+git log --oneline
 ```
 
+#### Ritorno al futuro
+
+Per tornare indietro usare 
+```bash
+git checkout #primi sette caratteri dell'id
+```
+
+Linea del tempo:
+```
+                                    HEAD
+------- o ------------- o ---------- o
+  Initial commit  Add index.html  Add test
+
+git checkout Add index.html (il suo id)
+
+                       HEAD
+------- o ------------- o ---------- o
+  Initial commit  Add index.html  Add test
+```
+
+HEAD è il puntatore all'ultimo commit (stato della repo).  
+Con il **checkout** non vengono eliminati i commit successivi, ma sposta l'HEAD.
+
+Per tornare all'ultimo commit (nel branch master):
+
+```bash
+git checkout master
+```
+
+#### TAG
+
+I tag servono a sostituire il codice generato nei commit, usato solitamente nelle versioni stable della repository.
+
+```bash
+git tag #mostra i tag presenti
+git tag -a v1.0 -m "First stable version"
+```
+
+#### REVERT
+
+```
+                                    HEAD
+------- o ------------- o ---------- o
+  Initial commit  Add index.html  Broken commit
+
+git checkout Add index.html (il suo id)
+
+                                                    HEAD
+------- o ------------- o ---------- o ------------- o ---
+  Initial commit  Add index.html  Broken commit     Fix
+```
+
+Per tornare ad una versione stabile
+
+```bash
+git revert Broken commit #--abort in caso di problemi, usare sempre i 7 caratteri del commit precedente
+```
 
 ---
 
