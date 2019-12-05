@@ -2,7 +2,7 @@
 tags: [General]
 title: GPOI
 created: '2019-11-21T07:50:52.720Z'
-modified: '2019-11-28T08:26:42.200Z'
+modified: '2019-12-05T08:31:22.618Z'
 ---
 
 # GPOI
@@ -19,7 +19,7 @@ Git è un sistema di **versioning**
 - VCS locali: sistemi di versioning tramite database locali, ma se il sistema dove risiedeva il progetto falliva si perdeva tutto.
 - VCS centralizzati: versioning distribuito tra i vari utenti
 
-### Linus Torvalds
+#### Linus Torvalds
 
 Sviluppatore del kernel Linux, ha creato git per risanare alla mancanza di un sistema decentralizzato libero per lo sviluppo.
 Git è un programma per CLI, ma è integrato in molti editor.  
@@ -27,6 +27,11 @@ Git è un programma per CLI, ma è integrato in molti editor.
 ---
 
 ### Comandi
+
+```bash
+alias gs = git status
+alias gl = git log --oneline
+```
 
 ```bash
 git --version #stampa la versione di git
@@ -157,7 +162,7 @@ git tag -a v1.0 -m "First stable version"
 ------- o ------------- o ---------- o
   Initial commit  Add index.html  Broken commit
 
-git checkout Add index.html (il suo id)
+git checkout "Add index.html" (il suo id)
 
                                                     HEAD
 ------- o ------------- o ---------- o ------------- o ---
@@ -170,5 +175,88 @@ Per tornare ad una versione stabile
 git revert Broken commit #--abort in caso di problemi, usare sempre i 7 caratteri del commit precedente
 ```
 
+#### RESET
+
+Lascia i file non tracciati, ma va a modificare i file già tracciati al precedente commit
+```bash
+git reset --hard
+```
+
+Per togliere i file non tracciati
+```bash
+git clean -f
+```
+
 ---
+
+#### BRANCH
+
+In git un branch è una linea di sviluppo indipendente.
+
+- Serve per aggiungere nuove funzionalità al programma senza andare a compromettere lo sviluppo principale
+- 
+
+```
+ master
+   |
+   o
+   | \ 
+   |  \
+   |   | dev
+   o   o 
+   |   |
+   |   o 
+   |  /  \
+   o /    \
+   |merge  | experimental
+   |       o
+   |       |
+   o       o
+   |      / 
+   |    /   
+   |  /
+   o /  
+   |merge
+   |
+```
+
+```bash
+git branch #mostra solo master e l'asterisco mostra il branch corrente
+```
+
+
+Facendo un checkout viene creata una specie di branch
+```bash
+git checkout
+git branch
+git checkout master
+```
+
+Per creare un branch
+```bash
+git branch prova
+git checkout prova
+```
+
+D'ora in poi si lavorerà nel branch prova senza andare a modificare il branch master.
+
+```
+ master
+   |
+   o
+   | \ 
+   |  \
+   |   | prova
+   o   o 
+```
+
+#### MERGE CONFLICT
+
+Conflitto nel merge tra più branch, bisogna scegliere quale versione tenere
+
+---
+
+# Licenza
+
+Questa documentazione è sotto licenza [MIT](https://opensource.org/licenses/MIT)
 
