@@ -2,7 +2,7 @@
 tags: [General]
 title: GPOI
 created: '2019-11-21T07:50:52.720Z'
-modified: '2019-12-05T08:31:22.618Z'
+modified: '2019-12-12T08:12:59.435Z'
 ---
 
 # GPOI
@@ -253,6 +253,40 @@ D'ora in poi si lavorerà nel branch prova senza andare a modificare il branch m
 #### MERGE CONFLICT
 
 Conflitto nel merge tra più branch, bisogna scegliere quale versione tenere
+
+#### MERGE IN AZIENDA
+
+Quando si è pronti al rilascio di una versione stabile, si mette in produzione il progetto.
+> MAI METTERE IN PRODUZIONE IL VENERDI' SERA
+
+#### Esempio di più branch
+
+```bash
+mkdir sito
+cd sito
+git init
+nano index.html
+git add *
+git commit -m "Add index.html"
+git log --oneline #gl
+git branch dev
+git checkout dev
+git checkout -b css #crea il branch se non esiste
+nano style.css
+git add *
+git commit -m "Add style.css"
+git checkout dev
+git merge css
+git log --oneline
+git checkout master
+git merge dev
+```
+
+[Tree view with git log](https://stackoverflow.com/questions/2421011/output-of-git-branch-in-tree-like-fashion)
+
+```bash
+git log --graph --all --format='%C(cyan dim) %p %Cred %h %C(white dim) %s %Cgreen(%cr)%C(cyan dim) <%an>%C(bold yellow)%d%Creset'
+```
 
 ---
 
