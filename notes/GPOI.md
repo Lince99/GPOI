@@ -2,7 +2,7 @@
 tags: [General]
 title: GPOI
 created: '2019-11-21T07:50:52.720Z'
-modified: '2019-12-12T08:12:59.435Z'
+modified: '2019-12-19T08:34:29.866Z'
 ---
 
 # GPOI
@@ -287,6 +287,98 @@ git merge dev
 ```bash
 git log --graph --all --format='%C(cyan dim) %p %Cred %h %C(white dim) %s %Cgreen(%cr)%C(cyan dim) <%an>%C(bold yellow)%d%Creset'
 ```
+
+### REBASE
+
+Simile al merge, prende un set di commit e li copia in un altro branch
+
+Obbiettivo: allineare master a bugFix
+
+```bash
+git checkout -b bugFix
+git commit -m "vari commit in bugFix"
+git rebase master #in bugFix
+git rebase bugFix #in master
+```
+
+Passaggi:
+- Creare nuovo branch
+- Fare commit in entrambi i branch
+- fare checkout nel branch da fare il rebase
+- git rebase master
+- allineare master con i commit del branch con git rebase nomeBranch
+
+---
+
+### Repository remote
+
+Sono delle cartelle git salvate su piattaforme cloud.  
+
+
+#### Creare una copia locale di una repository da internet
+
+```bash
+git clone linkdellarepo
+```
+
+#### Branch remote
+
+Le repository remote hanno come nome **o/master** e sta per **origin/master**.  
+
+```bash
+git remote -v
+```
+
+#### Update locali
+
+- Repository locale clonata da quella remota
+- Nel caso qualcuno abbia modificato qualcosa nella repository remota si verifica un conflitto
+- Per risolverlo esistono una serie di comandi
+
+Fetch va a copiare i commit che non sono presenti in locale dopo un certo commit
+
+```bash
+git fetch
+```
+
+- Scarica i commit che mancano nella repository locali da quella remota
+- aggiorna il punto in cui si trova il puntatore
+
+**IMPORTANTE** : non aggiorna lo stato dei file in locale (scarica e basta)
+
+Per applicare le modifiche in master si utilizza git pull (è un fetch e un merge)
+
+```bash
+git pull
+```
+
+#### Update remoti
+
+```bash
+git push
+```
+
+In caso di conflitti nella storia dei commit
+
+```bash
+git fetch
+git rebase o/master
+git push
+```
+
+oppure più brevemente
+
+```bash
+git pull --rebase
+```
+
+```bash
+git fetch
+git merge o/master
+git push
+```
+
+
 
 ---
 
